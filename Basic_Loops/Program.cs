@@ -36,6 +36,7 @@ int enteredCode = 00000;
 while (enteredCode != keypadCode)
 {
     Console.WriteLine("Please enter a code to get inside");
+    enteredCode = Convert.ToInt32(Console.ReadLine());
 }
 Console.WriteLine("Welcome user!");
 
@@ -48,6 +49,7 @@ enteredCode = 00000;
 do
 {
     Console.WriteLine("Please enter a code to get inside");
+    enteredCode = Convert.ToInt32(Console.ReadLine());
 } while (enteredCode != keypadCode);
 
 Console.WriteLine("Welcome user!");
